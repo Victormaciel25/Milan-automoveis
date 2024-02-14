@@ -1,0 +1,284 @@
+:root{
+    --cor0: rgb(9, 105, 38);
+    --cor1: rgba(236, 200, 0, 0.938);
+    
+    --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+header{
+    font-family: --fonte-padrao;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: var(--cor0);
+    gap: 70px;
+}
+
+.logo-milan{
+    padding-top: 10px;
+}
+
+
+header a:hover{
+    transform: scale(1);
+    transition: all .5s ease;
+    cursor: pointer;
+    color: black;
+}
+
+.banner img{
+    width: 100%;
+}
+
+main{
+    margin: auto; 
+}
+
+.nav-esquerda{
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-direita{
+    font-size: 18px;
+    justify-content: right;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.super-vantagens-container{
+    color: rgba(2, 2, 2, 0.651);
+    font-size: x-large;
+    font-family: --fonte-padrao;
+    min-width: 300px;
+    max-width: 1500px;
+    margin: 80px 200px 200px 200px;
+}
+
+.super{
+    padding-bottom: 50px;
+}
+
+.underline{
+    font-size: 70px;
+    color: var(--cor1);
+}
+
+.container-1{
+    display: flex;
+}
+
+.container-2{
+    width: 25%;
+    font-size: 17px;
+    font-family: var(--fonte-padrao);
+    background-color: rgba(253, 253, 253, 0.479);
+    padding: 15px;
+    text-align: left;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.075);
+}
+
+.container-2:last-child{
+    margin-right: 0;
+}
+
+.container-2 h3 {
+    text-align: left;
+    padding: 10px 0px 10px 0px;
+}
+
+.favicon{
+    margin-left: 5%;
+}
+
+section{
+    position: relative;
+}
+
+.consorcio{
+    display: flex;
+    background-color: var(--cor1);
+    margin: 120px 200px 120px 200px;
+    border-radius: 40px 40px 40px 40px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 440px;
+    
+}
+
+.consorcio1 {
+    flex: 1; /* Ajustado para ocupar o restante do espaço*/
+    position: relative; /* Adicionado para posicionar corretamente*/
+}
+
+.avengers{
+    min-width: 550px;
+    
+}
+
+.guy {
+    width: 350px;
+    position: absolute;
+    left: 290px;
+    z-index: 1;
+    margin-left: 80px;
+    top: 50%; /* Ajustado para centralizar verticalmente*/
+    transform: translateY(-50%); /* Ajustado para centralizar verticalmente*/
+}
+
+.consorcio2 {
+    margin-left: auto;
+    padding-top: 65px;
+    width: 450px; /* Ajuste conforme necessário */
+    height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    right: 15%;
+
+}
+
+.consorcio2 h2{
+    font-family: var(--fonte-padrao);
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+.consorcio2 p{
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+}
+
+.consorcio2 button{
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover a borda padrão */
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+    font-family: var(--fonte-padrao);
+    padding: 11px 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.consorcio2 button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1);
+    transition: all .2s ease;
+}
+
+.nosso-estoque h2{
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    color: rgba(2, 2, 2, 0.651);
+    text-align: center;
+}
+
+.nosso-estoque p{
+    font-family: var(--fonte-padrao);
+    color: rgba(2, 2, 2, 0.651);
+    text-align: center;
+}
+
+main .underline{
+    font-size: 70px;
+    color: var(--cor1);
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+}
+
+.div-button button{
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid var(--cor1); /* Remover a borda padrão */
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+    font-family: var(--fonte-padrao);
+    padding: 11px 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--cor1);
+    display: flex
+}
+
+.div-button button:hover{
+    background-color: var(--cor1);
+    color: white;
+    transform: scale(1);
+    transition: all .2s ease;
+}
+
+.depoimentos1{
+    font-family: var(--fonte-padrao);
+    font-size: 22px;
+    color: rgba(2, 2, 2, 0.651);
+    text-align: center;
+}
+
+.depoimentos1 p{
+    font-size: 17px;
+}
+
+.depoimentos{
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos2{
+    width: 20%;
+    font-size: 14px;
+    font-family: var(--fonte-padrao);
+    background-color: rgba(191, 191, 191, 0.185);
+    padding: 40px;
+    text-align: justify;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-right: 50px;
+    border: none;
+    display: block;
+    min-height:185px;
+    overflow: hidden;
+}
+
+.depoimentos2:last-child{
+    margin-right: 0px;
+}
+
+.depoimentos2 img, h3{
+    display: inline;
+}
+
+.depoimentos2 h3{
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.estrela{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    margin-left: -110px;
+    margin-bottom: 20px;
+}
+
+.nome-pessoa{
+    display: flex;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.658);
+}
