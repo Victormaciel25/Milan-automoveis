@@ -1,7 +1,7 @@
 :root{
     --cor0: rgb(9, 105, 38);
     --cor1: rgba(236, 200, 0, 0.938);
-    
+    --cor2: #17171d;
     --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -93,8 +93,9 @@ main{
 }
 
 .container-2 h3 {
-    text-align: left;
+    text-align: left;   
     padding: 10px 0px 10px 0px;
+    display: inline-block;
 }
 
 .favicon{
@@ -114,7 +115,6 @@ section{
     overflow: hidden;
     position: relative;
     height: 440px;
-    
 }
 
 .consorcio1 {
@@ -192,7 +192,7 @@ section{
     text-align: center;
 }
 
-main .underline{
+body .underline{
     font-size: 70px;
     color: var(--cor1);
 }
@@ -281,4 +281,165 @@ main .underline{
     display: flex;
     margin-top: 30px;
     color: rgba(0, 0, 0, 0.658);
+}
+
+.Fale-agora{
+   display: flex;
+   border: none;
+   position: relative;
+}
+
+.Fale-agora1{
+    display: flex;
+    background-color: var(--cor0);
+    margin: 120px 200px 70px 200px;
+    border-radius: 40px 40px 40px 40px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 440px;
+    color: white;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+}
+
+.Fale-agora2 h1{
+    font-family: var(--fonte-padrao);
+    padding-bottom: 20px; 
+}
+
+.Fale-agora2{
+    margin-left: 300px;
+    padding-top: 80px;
+    width: 500px; /* Ajuste conforme necessário */
+    height: 80%; /* Ajuste conforme necessário para cobrir toda a altura da tela */
+    text-align: left;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    right: 15%;
+}   
+
+.Fale-agora2 button{
+    position: absolute;
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover a borda padrão */
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer; /* Alterar o cursor ao passar sobre o botão */
+    font-family: var(--fonte-padrao);
+    margin-top: 10px;
+    padding: 11px 30px;
+    background-color: var(--cor1);
+    z-index: 10;
+}
+
+.Fale-agora2 button:hover{
+    transform: scale(1);
+    transition: all .2s ease;
+    box-shadow: 0px 4px 30px rgba(236, 200, 0, 0.589);
+}
+
+.brasil{
+    position:absolute;
+    z-index:1;
+    top: 450px;
+    left: 200px;
+    opacity: 0.5;
+}
+
+.Fale-agora3{
+    width: 70%;
+    max-width: 70%;
+    min-width: 20%;
+    height: 100%;
+}
+
+.Fale-agora3 img{
+    transform: scaleX(-1);
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.avengers2{
+    opacity: 0.9;
+}
+
+.memoji{
+    position: absolute;
+    z-index: 3;
+    transform: scaleX(-1);
+    width: 400px;
+    height: 270px;
+    bottom: 100px;
+    right: 150px;
+}
+
+.container-infos{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: var(--cor2);
+    z-index: 10;
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+
+.container-infos p, a{
+    font-size: 14px;
+}
+
+.info-logo{
+    position: relative;
+    top: 50px;
+    right: 120px;
+}
+
+.info-nav{
+    position: relative;
+    left: 70px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sem-bolinha{
+    list-style-type: none;
+    position: relative;
+    top: 50px;
+}
+
+.alinhar {
+    display: inline-block;
+}
+
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo2{
+    padding: none;
+}
+
+.sem-sublinhado{
+    text-decoration: none;
+    color: white;
+}
+
+.sem-sublinhado:hover{
+    transform: scale(1);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.489);
+    font-family: var(--fonte-padrao);
 }
